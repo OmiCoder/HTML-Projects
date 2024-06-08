@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0%;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.mainbg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imges/bg_02.jpg);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 20%;
+    background-color: transparent;
+    
+}
+
+.logo, nav{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+}
+
+nav button, nav select{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+nav select option{
+    color: black;
+}
+
+.logo img{
+    width: 200px;
+    
+}
+
+.maincontent{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    padding: 100px 50px;
+    text-align: center;
+    color: white;
+}
+
+.maincontent h1{
+    font-size: 44px;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.maincontent p{
+    font-size: 28px;
+    margin: 0px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+    
+}
+.maincontent input{
+    width: 200px;
+    padding: 10px 20px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.maincontent button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+
+}
+.maincontent input::placeholder{
+    color: white;
+}
